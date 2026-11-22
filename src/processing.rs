@@ -39,4 +39,8 @@ impl MetadataCollector {
             metadata_table: Vec::<PacketMetadata>::new(),
         };
     }
+
+    pub fn get_table(self: &Self) -> &[PacketMetadata] {
+        return &(self.metadata_table);
+    }
 }

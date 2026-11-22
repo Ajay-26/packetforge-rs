@@ -41,7 +41,7 @@ pub struct PacketMetadata {
 
 #[derive(Clone)]
 pub struct Packet {
-    pub metadata: PacketMetadata,
+    metadata: PacketMetadata,
     data: Vec<u8>,
 }
 
